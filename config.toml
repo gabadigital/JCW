@@ -1,0 +1,34 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+[menu]
+    [[menu.mainmenu]]
+    identifier="home"
+    name="Home"
+    url = "/"
+    weight = 1
+
+    [[menu.mainmenu]]
+    identifier="About"
+    name="About us"
+    url = "/about"
+    weight = 2
+
+    [[menu.mainmenu]]
+    identifier="Service"
+    name="Services"
+    url = "/services"
+    weight = 3
+
+    [[menu.mainmenu]]
+    identifier="Resources"
+    name="Resources"
+    url = "/resources"
+    weight = 4
+
+    [[menu.mainmenu]]
+    identifier="Contact"
+    name="Contact"
+    url = "/contact"
+    weight = 5
