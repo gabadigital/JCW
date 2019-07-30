@@ -1,7 +1,6 @@
 ---
 title: "Policy"
 date: 2019-07-16T06:23:43-07:00
-draft: true
 images: "policy"
 color: "A9E0B8"
 name: "policy"

@@ -1,7 +1,6 @@
 ---
 title: "Risk Mitigation"
 date: 2019-07-16T06:24:20-07:00
-draft: true
 images: "risk_mitigation"
 color: "5DAF78"
 ---

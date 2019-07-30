@@ -1,7 +1,6 @@
 ---
 title: "About"
 date: 2019-07-17T03:19:13-07:00
-draft: true
 Summary: "It’s not just designing that excites me. It’s the intention— the why, the story and the vision that inspires me. This is the reason I do design."
 type: "static"
 layout: "contact"

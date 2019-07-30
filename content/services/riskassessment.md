@@ -1,7 +1,6 @@
 ---
 title: "Risk Assessment consulting"
 date: 2019-07-16T06:24:34-07:00
-draft: true
 images: "risk_assessment"
 color: "E4BD9B"
 name: "riskassessment"

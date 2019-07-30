@@ -1,7 +1,6 @@
 ---
 title: "Analysis"
 date: 2019-07-16T06:24:46-07:00
-draft: true
 images: "Analysis"
 color: "5bc6cf"
 name: "analysis"
