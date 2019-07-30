@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{partial "nav_2" .}}
+<div class="sections">
+  <div class="containerpage">
+    <div class="w-layout-grid grid-sections _2 resourcespage">
+      <div id="w-node-fd9e2ec857df-129fb655" class="w-layout-grid content-grid resources">
+        {{range .Pages}}
+        <a href="{{.URL}}" class="content-items _2 w-inline-block">
+          <div id="w-node-fd9e2ec857e1-129fb655" class="resources_images"></div>
+          <h3 id="w-node-fd9e2ec857e2-129fb655" class="h3">{{.Title}}</h3>
+          <p id="w-node-fd9e2ec857e4-129fb655">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+        </a>
+        {{end}}
+      </div>
+    </div>
+  </div>
+</div>
+{{end}}
