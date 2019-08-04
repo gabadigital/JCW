@@ -1,6 +1,3 @@
-.white{
-  color:#5bc6cf;
-}
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -13,12 +10,34 @@
   grid-column-gap: 16px;
 }
 
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #5bc6cf;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
 p {
   margin-bottom: 10px;
-  color: #849d9e;
-  font-size: 1.09em;
+  color: #141e3b;
+  font-size: 1.06em;
   line-height: 1.65em;
 }
+
+ul {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding-left: 40px;
+}
+
+li {
+  font-size: 1.06em;
+  line-height: 1.65em;
+}
+
+
 
 .body {
   background-color: #fff;
@@ -36,6 +55,9 @@ p {
   display: -ms-flexbox;
   display: flex;
   height: 60vh;
+  max-height: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -49,12 +71,12 @@ p {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  background-color: rgba(10, 18, 43, 0.95);
+  background-color: rgba(10, 18, 43, 0.88);
 }
 
 .header.subpages {
   height: 30vh;
-  background-color: rgba(75, 185, 194, 0.94);
+  background-color: rgba(20, 30, 59, 0.85);
 }
 
 .header.subpages.contact {
@@ -136,7 +158,8 @@ p {
 
 .h2 {
   margin-bottom: 25px;
-  font-size: 1.7em;
+  color: #21a6b1;
+  font-size: 2em;
   line-height: 1.5em;
   font-weight: 600;
   text-transform: uppercase;
@@ -144,6 +167,10 @@ p {
 
 .h2.white {
   color: #5bc6cf;
+}
+
+.h2.realwhite {
+  color: #e6edee;
 }
 
 .footer_grid {
@@ -161,6 +188,7 @@ p {
 .heading_footer {
   margin-top: 0px;
   margin-bottom: 0px;
+  color: #141e3b;
   font-size: 1.2em;
   font-weight: 700;
   text-transform: uppercase;
@@ -344,8 +372,8 @@ p {
 .h3 {
   margin-top: 13px;
   margin-bottom: 13px;
-  color: #141e3b;
-  font-size: 1em;
+  color: #21a6b1;
+  font-size: 1.2em;
   line-height: 1.5em;
   font-weight: 600;
   text-transform: uppercase;
@@ -353,7 +381,7 @@ p {
 
 .h3.content {
   margin-bottom: 25px;
-  color: #141e3b;
+  color: #21a6b1;
   font-size: 1.3em;
 }
 
@@ -369,6 +397,10 @@ p {
   font-size: 2.4em;
   line-height: 1em;
   letter-spacing: 30%;
+}
+
+.topic_headings._2 {
+  color: rgba(251, 252, 255, 0.72);
 }
 
 .topic_grid {
@@ -392,7 +424,7 @@ p {
 }
 
 .topic_grid.white {
-  background-color: rgba(255, 255, 255, 0.47);
+  background-color: rgba(91, 198, 207, 0.9);
 }
 
 .names_grid {
@@ -464,7 +496,7 @@ p {
 .resources_images {
   width: 100%;
   height: 150px;
-  background-image: url('../images/blog.jpg');
+
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -527,6 +559,7 @@ p {
 .header-grid {
   display: -ms-grid;
   display: grid;
+  max-width: 800px;
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -544,16 +577,16 @@ p {
 
 .h1 {
   margin-top: 0px;
-  margin-bottom: 6%;
+  margin-bottom: 3%;
   color: #5bc6cf;
-  font-size: 2.1em;
+  font-size: 2.05em;
   line-height: 1.5em;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .h1._2 {
-  color: #141e3b;
+  color: #efefef;
 }
 
 .h1.resources {
@@ -569,9 +602,27 @@ p {
 
 .button.tophead {
   margin-top: 5%;
-  padding-right: 21px;
-  padding-left: 21px;
+  margin-right: 12px;
+  padding: 2.5% 4%;
   border-radius: 3px;
+  -webkit-transition: color 200ms ease, border-color 200ms ease, background-color 200ms ease;
+  transition: color 200ms ease, border-color 200ms ease, background-color 200ms ease;
+}
+
+.button.tophead:hover {
+  background-color: #4dacb4;
+  color: #efefef;
+}
+
+.button.tophead._2 {
+  border: 1px solid #5bc6cf;
+  background-color: transparent;
+  color: #5bc6cf;
+}
+
+.button.tophead._2:hover {
+  background-color: #4dacb4;
+  color: #efefef;
 }
 
 .button.signup {
@@ -594,18 +645,22 @@ p {
 
 .header_content_wrap {
   padding: 30px 19px;
-  background-color: hsla(0, 0%, 93.7%, 0.03);
+  background-color: rgba(20, 30, 59, 0.8);
 }
 
 .header_content_wrap.pages {
-  background-color: hsla(0, 0%, 93.7%, 0.36);
+  background-color: rgba(91, 198, 207, 0.84);
 }
 
 .sub_text {
-  color: rgba(255, 255, 255, 0.78);
+  color: #efefef;
+  font-size: 1.3em;
 }
 
 .sub_text._2 {
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #fff;
   color: #141e3b;
 }
 
@@ -658,6 +713,7 @@ p {
   border: 1px solid #222f53;
   border-radius: 6px;
   background-color: #222f53;
+  color: #efefef;
 }
 
 .footer {
@@ -838,7 +894,7 @@ p {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 5px;
-  background-color: #5bc6cf;
+  background-color: #141e3b;
 }
 
 .flex_social_team {
@@ -1097,9 +1153,26 @@ p {
   color: #d8dbe4;
 }
 
+.top_texts {
+  color: #141e3b;
+  font-size: 1.25em;
+  line-height: 1.4em;
+}
+
+.top_texts._2 {
+  color: #d8e1e2;
+}
+
+.p_index {
+  color: #95979e;
+}
+
 @media (max-width: 991px) {
   p {
     font-size: 1.1em;
+    line-height: 1.5em;
+  }
+  li {
     line-height: 1.5em;
   }
   .grid-sections {
@@ -1137,7 +1210,6 @@ p {
 
 @media (max-width: 767px) {
   p {
-    color: #849d9e;
     font-size: 1.1em;
     line-height: 1.6em;
   }
@@ -1425,8 +1497,8 @@ p {
 #w-node-f530772d0d4a-86ee307a {
   -ms-grid-column: 2;
   grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
+  -ms-grid-column-span: 2;
+  grid-column-end: 4;
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 3;
@@ -1766,8 +1838,8 @@ p {
 #w-node-f530772d0d4a-6f25d84c {
   -ms-grid-column: 2;
   grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
+  -ms-grid-column-span: 2;
+  grid-column-end: 4;
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 2;
@@ -2050,8 +2122,8 @@ p {
 #w-node-f530772d0d4a-129fb655 {
   -ms-grid-column: 2;
   grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
+  -ms-grid-column-span: 2;
+  grid-column-end: 4;
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 2;
@@ -2214,8 +2286,8 @@ p {
 #w-node-f530772d0d4a-d79fbe7a {
   -ms-grid-column: 2;
   grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
+  -ms-grid-column-span: 2;
+  grid-column-end: 4;
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 2;

@@ -3,8 +3,8 @@
     <div style="opacity:0.1;-webkit-transform:translate3d(0, -100PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -100PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -100PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -100PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="w-layout-grid grid-sections">
       <div id="w-node-fa20ea4255f0-86ee307a" class="w-layout-grid content-grid">
         {{range where .Site.RegularPages "Type" "resources" }}
-        <a href="#" class="content-items _2 w-inline-block">
-          <div id="w-node-459af262a77b-86ee307a" class="resources_images"></div>
+        <a href="{{.URL}}" class="content-items _2 w-inline-block">
+          <div id="w-node-459af262a77b-86ee307a" class="resources_images" style="background-image: url('/images/{{.Params.images}}.jpg');"></div>
           <h3 id="w-node-459af262a77c-86ee307a" class="h3">{{.Title}}</h3>
           <p id="w-node-459af262a77e-86ee307a">{{truncate 80 .Content}}</p>
         </a>

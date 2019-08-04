@@ -4,6 +4,7 @@ date: 2019-07-16T06:24:34-07:00
 images: "risk_assessment"
 color: "E4BD9B"
 name: "riskassessment"
+postsummary: "Risk is intrinsic in everything we do. It is therefore very key and important that every corporation understands their risk profile so as to make the right decisions on how best to achieve Objectives and Goals."
 ---
 
 Risk is intrinsic in everything we do. It is therefore very key and important that every corporation understands their risk profile so as to make the right decisions on how best to achieve Objectives and Goals. <br>

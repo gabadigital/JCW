@@ -7,7 +7,7 @@
             <div class="circle">
               <div class="smallcircle" style="background-color:#{{.Params.color}};"></div><img src="/images/{{ .Params.images}}.svg" alt=""></div>
                 <h3 id="w-node-5b12c031f4bb-86ee307a" class="h3">{{.Title}}</h3>
-                <p id="w-node-d5906189b778-86ee307a">{{truncate 80 .Content}}</p>
+                <p class="p_index">{{truncate 80 .Params.postsummary}}</p>
           </a>
         {{end}}
       </div>

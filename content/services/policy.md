@@ -4,6 +4,7 @@ date: 2019-07-16T06:23:43-07:00
 images: "policy"
 color: "A9E0B8"
 name: "policy"
+postsummary: "Our risk assessment consulting and risk analysis programs are based on industry best practices and performed by knowledgeable experts trained in the field of risk assessment."
 ---
 Our risk assessment consulting and risk analysis programs are based on industry best practices and performed by knowledgeable experts trained in the field of risk assessment. Each risk assessment seeks to the following basic tasks:
 
