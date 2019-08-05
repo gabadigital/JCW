@@ -3,17 +3,18 @@
 <div class="sections">
       <div class="containerpage">
         {{range .Pages}}
-        <div class="services_items _2">
-          <div id="{{.Params.name}}" class="services_content">
-            <h1 class="h3 content">{{.Title}}</h1>
-            <p>{{.Content}}</p>
-            
+          <div id="{{.Params.name}}" class="services_items">
+            <div>
+              <div class="circle service">
+                <div class="smallcircle" style="background-color:#{{.Params.color}};"></div><img src="/images/{{.Params.images}}.svg" alt="" class="image"></div>
+            </div>
+            <div class="services_content">
+              <h1 class="h3 content">{{.Title}}</h1>
+              <p>{{.Content}}</p>
+              <a href="/contact" class="button w-button">request for a quote</a>
+            </div>
           </div>
-          <div>
-            <div class="circle service">
-              <div class="smallcircle" style="background-color:#{{.Params.color}};"></div><img src="/images/{{.Params.images}}.svg" alt="" class="image"></div>
-          </div>
-        </div>
+
         {{end}}
 
       </div>

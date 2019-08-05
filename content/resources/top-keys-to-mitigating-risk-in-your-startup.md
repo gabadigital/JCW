@@ -1,7 +1,7 @@
 ---
 title: "Top Keys to Mitigating Risk in Your Startup"
 date: 2019-07-16T16:38:55-07:00
-images: "topkeys"
+images: "top-keys"
 Postsummary: "Not all risks are preventable, but they are diminishable. In other words, it is always possible to reduce the likelihood that something bad might happen, and reduce the potential negative impact if something bad does happen.
 "
 ---
