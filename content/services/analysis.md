@@ -1,5 +1,5 @@
 ---
-title: "Analysis"
+title: "Data mining and analytics, to age strategic and operational planning"
 date: 2019-07-16T06:24:46-07:00
 images: "Analysis"
 color: "5bc6cf"

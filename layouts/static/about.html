@@ -1,5 +1,30 @@
 {{ define "main" }}
-{{partial "nav_2" .}}
+
+<div class="header subpages">
+  <div data-delay="4000" data-animation="cross" data-autoplay="1" data-duration="2000" data-infinite="1" class="slider w-slider">
+      <div class="w-slider-mask">
+        <div class="slide _about1 w-slide"></div>
+        <div class="slide _about2 w-slide"></div>
+      </div>
+      <div class="right-arrow w-slider-arrow-left">
+        <div class="w-icon-slider-left"></div>
+      </div>
+      <div class="right-arrow w-slider-arrow-right">
+        <div class="w-icon-slider-right"></div>
+      </div>
+      <div class="slide-nav w-slider-nav w-round"></div>
+    </div>
+  <div class="containerpage">
+    <div class="header-grid pages">
+      <div id="w-node-f530772d0d4a-d79fbe7a" class="header_content_wrap pages">
+        <h1 class="h1 _2">{{.Title}}</h1>
+        <p class="sub_text _2">{{.Params.Summary}}</p>
+      </div>
+      <div id="w-node-e4fe2a922121-d79fbe7a" class="topic_grid white"></div>
+    </div>
+  </div>
+</div>
+
 <div data-w-id="75ed6676-e6d4-a56a-d5c4-f36ff3aa25c3" class="sections">
   <div class="containerpage">
     <div class="w-layout-grid content_grid_write">
@@ -20,12 +45,12 @@
       <div id="w-node-c210effdc20b-6f25d84c" class="div-block-27">
         <div class="text-block">&quot;</div>
         <p class="p_end">Our team has a lot of fun every day. We solve challenging technical problems, build applications</p>
-        <div class="name">daniel awokoya</div>
+        <div class="name">Name</div>
       </div>
     </div>
   </div>
 </div>
-{{partial "ourteam" .}}
+<br/><br/><br/><br/>
 
 
 

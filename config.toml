@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 relativeURLs = true
 
+[taxonomies]
+    category = "categories"
+    tag = "tags"
 
 [menu]
     [[menu.mainmenu]]

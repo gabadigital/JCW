@@ -123,6 +123,14 @@ li {
   background-image: url('../images/slide-3.jpg');
 }
 
+.slide._about1 {
+  background-image: url('../images/about_bg1.jpg');
+}
+
+.slide._about2 {
+  background-image: url('../images/about_bg2.jpg');
+}
+
 .circle {
   position: relative;
   display: -webkit-box;

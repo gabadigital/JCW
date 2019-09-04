@@ -1,5 +1,5 @@
 ---
-title: "STRATEGIC AND OPERATIONAL LEVEL SECURITY SOLUTIONS"
+title: "Resilience and business continuity planning and implementation"
 date: 2019-07-16T06:18:33-07:00
 images: "strategic_levels"
 color: "D7B990"

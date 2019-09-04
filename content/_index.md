@@ -5,4 +5,4 @@ Summary: " We're a creative management consulting company that helps passionate 
 ---
 We’re a creative digital performance marketing agency that helps
 
-passionate organizations achieve inspiring results.
+passionate organizations achieve inspiring results. 

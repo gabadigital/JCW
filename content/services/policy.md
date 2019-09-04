@@ -1,5 +1,5 @@
 ---
-title: "Policy"
+title: "Policy and doctrine creation in relation to resilience and risk mitigation"
 date: 2019-07-16T06:23:43-07:00
 images: "policy"
 color: "A9E0B8"
